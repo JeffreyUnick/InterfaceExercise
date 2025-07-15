@@ -44,6 +44,41 @@ namespace InterfaceExercise
             //In the scope of them method, use string interpolation to display property values.
             //In order to also interpolate values from ICompany, research how to extend interfaces.
             
+            var Car1 = new Car();
+            Car1.Drive();
+            Car1.brand = "Toyota";
+            Car1.logo = "Two Ellipses crossed";
+            Car1.color = "Red";
+            Car1.hasTrunk = true;
+            Car1.isElectric = true;
+            Car1.maxSpeed = 160;
+            Car1.numberOfWheels = 4;
+            
+            var SUV1 = new SUV();
+            SUV1.Drive();
+            SUV1.brand = "Honda";
+            SUV1.logo = " H ";
+            SUV1.color = "BLACK";
+            SUV1.leatherSeat = true;
+            SUV1.isElectric = false;
+            SUV1.numberOfWheels = 4;
+            SUV1.numberOfSeats = 8;
+            
+            var Truck1 = new Truck();
+            Truck1.Drive();
+            Truck1.brand = "FORD";
+            Truck1.logo = "Ford";
+            Truck1.color = "yellow";
+            Truck1.pullingCapacity = 10000;
+            Truck1.numberOfWheels = 6;
+            Truck1.isElectric = false;
+            Truck1.motorType = "V12";
+
+            Car1.DisplayDetails();
+            SUV1.DisplayDetails();
+            Truck1.DisplayDetails();
+
+
         }
     }
 }
