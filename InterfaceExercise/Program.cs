@@ -46,39 +46,38 @@ namespace InterfaceExercise
             
             var Car1 = new Car();
             Car1.Drive();
-            Car1.brand = "Toyota";
-            Car1.logo = "Two Ellipses crossed";
-            Car1.color = "Red";
-            Car1.hasTrunk = true;
-            Car1.isElectric = true;
-            Car1.maxSpeed = 160;
-            Car1.numberOfWheels = 4;
+            Car1.Brand = "Toyota";
+            Car1.Logo = "Two Ellipses crossed";
+            Car1.Color = "Red";
+            Car1.HasTrunk = true;
+            Car1.IsElectric = true;
+            Car1.MaxSpeed = 160;
+            Car1.NumberOfWheels = 4;
             
             var SUV1 = new SUV();
             SUV1.Drive();
-            SUV1.brand = "Honda";
-            SUV1.logo = " H ";
-            SUV1.color = "BLACK";
-            SUV1.leatherSeat = true;
-            SUV1.isElectric = false;
-            SUV1.numberOfWheels = 4;
-            SUV1.numberOfSeats = 8;
+            SUV1.Brand = "Honda";
+            SUV1.Logo = " H ";
+            SUV1.Color = "BLACK";
+            SUV1.LeatherSeat = true;
+            SUV1.IsElectric = false;
+            SUV1.NumberOfWheels = 4;
+            SUV1.NumberOfSeats = 8;
             
             var Truck1 = new Truck();
             Truck1.Drive();
-            Truck1.brand = "FORD";
-            Truck1.logo = "Ford";
-            Truck1.color = "yellow";
-            Truck1.pullingCapacity = 10000;
-            Truck1.numberOfWheels = 6;
-            Truck1.isElectric = false;
-            Truck1.motorType = "V12";
+            Truck1.Brand = "FORD";
+            Truck1.Logo = "Ford";
+            Truck1.Color = "yellow";
+            Truck1.PullingCapacity = 10000;
+            Truck1.NumberOfWheels = 6;
+            Truck1.IsElectric = false;
+            Truck1.MotorType = "V12";
 
             Car1.DisplayDetails();
             SUV1.DisplayDetails();
             Truck1.DisplayDetails();
-
-
+            
         }
     }
 }
